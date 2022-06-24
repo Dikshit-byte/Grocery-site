@@ -136,7 +136,8 @@ const Header = () => {
             <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2" onClick={()=>setIsMenu(false)}>
               Home
             </li>
-            <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2" onClick={()=>setIsMenu(false)}>
+            <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2" 
+            onClick={()=>setIsMenu(false)}>
               Menu
             </li>
             <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2" onClick={()=>setIsMenu(false)}>
