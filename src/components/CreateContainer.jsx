@@ -138,8 +138,8 @@ const CreateContainer = () => {
     setCategory("Select Category");
   };
 
-  const fetchData = async ()=>{
-    await getAllFoodItems().then((data)=>{
+  const fetchData = async () => {
+    await getAllFoodItems().then((data) => {
       dispatch({
         type: actionType.SET_FOOD_ITEMS,
         foodItems: data,

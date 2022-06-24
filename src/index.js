@@ -5,7 +5,7 @@ import './index.css';
 import App from "./App"
 import { StateProvider } from "./context/StateProvider";
 import {initialState} from "./context/initialState";
-import reducer from "./context/reducer";
+import reducer from "./context/reducer"; 
 
 ReactDOM.render(<>
 <React.StrictMode>
